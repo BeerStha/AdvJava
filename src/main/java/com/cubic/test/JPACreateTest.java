@@ -27,47 +27,13 @@ public class JPACreateTest {
 			et.commit();
 			
 			
-			et.begin();
-			em.merge(entity);
-			entity.setFirstName("anil");
-			entity.setLastName("maya");
-			em.persist(entity);
-			et.commit();
-			
-			et.begin();
-			em.merge(entity);
-			entity.setFirstName("haha");
-			entity.setLastName("thakur");
-			em.persist(entity);
-			et.commit();
-			
-			et.begin();
-			em.merge(entity);
-			entity.setFirstName("jitu");
-			entity.setLastName("thakur");
-			em.persist(entity);
-			et.commit();
-			
-			et.begin();
-			em.merge(entity);
-			entity.setFirstName("raju");
-			entity.setLastName("thakur");
-			em.persist(entity);
-			et.commit();
-			
-			et.begin();
-			em.merge(entity);
-			entity.setFirstName("shrawan");
-			entity.setLastName("thakur");
-			em.persist(entity);
-			et.commit();
-			
+			/*
 			et.begin();
 			em.merge(entity);
 			entity.setFirstName("surendra");
 			entity.setLastName("thakur");
 			em.persist(entity);
-			et.commit();
+			et.commit();*/
 			
 			
 			System.out.println("After Save" + entity);

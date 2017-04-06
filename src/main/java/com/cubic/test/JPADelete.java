@@ -18,7 +18,6 @@ public class JPADelete {
 			et = em.getTransaction();
 			et.begin();
 			System.out.println("Connection Established");
-			
 			Customer entity = em.find(Customer.class, new Long(1003));
 			System.out.println("Before Save" + entity);
 			em.remove(entity);
